@@ -93,6 +93,8 @@ a.link-to-book:hover {
 .row-flex {
     display: flex;
     flex-direction: row;
+    grid-template-columns: repeat(3,33%);
+    margin-left: 5vw;
 }
 
 .flex-column-form {
@@ -128,7 +130,10 @@ a.link-to-book:hover {
 .contact-adress p span {
     display: block;
 }
-
+#order{
+    display: grid;
+    justify-content: center;
+}
 @media (min-width:577px) and (max-width: 800px) {
 
     .section-intro {
